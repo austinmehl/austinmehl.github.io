@@ -173,9 +173,13 @@ html, body {
   width: 100%;
   margin: 0 auto;
     padding: 0px;
+   
 
 }
 
+.header{
+   
+}
 
 video {
     display: block;
@@ -262,6 +266,7 @@ li{
 a{
   text-decoration: none;
   color: rgba(18, 204, 251, 0.6);
+    background-color: white;
 }
 /* This makes our li blue */
 li.active{
