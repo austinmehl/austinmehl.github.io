@@ -172,8 +172,7 @@ html, body {
 .container {
   width: 100%;
   margin: 0 auto;
-  padding-left: -10px;
-    padding-right: -10px;
+    padding: 0px;
 
 }
 
@@ -219,6 +218,7 @@ video {
    */}
 .content li{
   display: inline-block;
+
 /* margin-right: 25px;
  */
 }
@@ -256,6 +256,7 @@ li{
 /*   background: white;
    */  text-align: center;
   border-radius: 5px;
+ 
   
 }
 a{
@@ -278,7 +279,7 @@ text-align: left;
   font-size: 220px;
   font-weight: 600;
   color: rgba(18, 204, 251, 0.6);
-  margin-top: -200px;
+  margin-top: -250px;
   margin-left: 0px;
   position: absolute;
   padding-bottom: 300px;
