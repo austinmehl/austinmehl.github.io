@@ -1,0 +1,187 @@
+html, body {
+  margin: 0;
+}
+
+h1, h2, a {
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+
+}
+
+/* Main */
+.main {
+  height: 600px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/projects/move/bg.jpg);
+  background-size: cover;
+  text-align: center;
+  margin-top: -200px;
+
+}
+
+.main h1 {
+  font-size: 150px;
+  text-align: center;
+  color: white;
+}
+
+.main p {
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}
+
+.main a {
+  text-align: center;
+   font: bold 18px Arial;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 10px 12px 10px 12px;
+
+}
+.main a:hover{
+  background-color: orange;
+  color: black;
+  text-align: center;
+}
+
+
+/* Supporting */
+.supporting {
+  padding: 50px 0 80px;
+  background-color: #1c1c1c;
+
+}
+
+.supporting .col {
+   width: 28%;
+  padding: 10px;
+  display: inline-block;
+
+}
+
+.supporting h2 {
+  color: #ffa800;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+
+}
+
+.supporting p {
+  color: #efefef;
+  margin-bottom: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  text-align: center;
+
+}
+
+.clearfix {
+  clear: both;
+}
+
+
+
+.supporting .btn {
+  background-color: #eee;
+  color: #1c1c1c;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+ margin-left: 400px;
+  text-align: center;
+}
+
+.supporting .btn:hover {
+ background-color: orange;
+  color: black;
+  text-align: center;
+}
+/* Feature */
+.feature {
+  height: 600px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/projects/move/feature.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.feature h1 {
+  color: #fff;
+  font-size: 40px;
+  margin-top: 0;
+  padding:300px 0 0;
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  height: 600px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/projects/move/footer.jpg);
+  background-size: cover;
+}
+
+.footer h1,
+.footer h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  padding:300px 0 0;
+  text-align: center;
+}
+
+.footer p {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+
+.footer .btn {
+  text-align: center;
+   font: bold 18px Arial;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 10px 12px 10px 12px;
+  margin-left: 400px;
+
+}
+
+.footer .btn:hover {
+  background-color: orange;
+  color: black;
+  text-align: center;
+
+}
+
+@media (min-width:600px) {
+  .main h1 {
+    font-size: 200px;
+  }
+
+  .supporting .col {
+    width: 30%;
+  }
+
+  .supporting h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .supporting p {
+    font-size: 14px;
+  }
+
+  .feature h2 {
+    font-size: 60px;
+  }
+}

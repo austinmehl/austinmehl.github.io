@@ -1,0 +1,173 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arvo', serif;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+.header {
+  height: 150px;
+}
+
+.header h1 {
+  margin-top: 50px;
+}
+
+
+.header a {
+  color: rgba(216,25,47,1);
+  border: rgba(216,25,47,1) solid 1px;
+  margin-top: 50px;
+   margin-right: 10px;
+
+}
+
+ul.nav.nav-pills {
+    text-align: right;
+}
+
+.nav-pills>li {
+    float: none;
+    display: inline-block;
+}
+
+/* Header */
+.nav-pills li a {
+  color: rgba(216,25,47,1);
+  text-align: right;
+  padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+ .nav-pills > li > a {
+   margin-left: 5px;
+
+}
+
+.nav-pills li.active a,
+.nav-pills li a:hover,
+.section .btn:hover {
+  background-color: rgba(216,25,47,1);
+  box-shadow:0 2px 4px rgba(0,0,0,.5);
+  color:#fff;
+
+}
+
+.btn-about {
+  background-color: rgba(216,25,47,1);
+  box-shadow:0 2px 4px rgba(0,0,0,.5);
+  color:#fff!important;
+}
+
+.btn-about:hover {
+  background-color: rgba(216,25,47,1);
+  box-shadow:0 2px 4px rgba(0,0,0,.5);
+  color:#fff;
+}
+
+/* Jumbotron */
+.jumbotron {
+  height: 500px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/projects/bestbite/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding-top: 150px;
+}
+
+
+.jumbotron .middle {
+  margin-left: 50px;
+}
+
+.jumbotron .right {
+  margin-left: 100px;
+}
+
+
+
+/* Banner */
+.banner, .supporting {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.banner {
+  background-color:#36343f;
+  height:180px;
+  color: #fff;
+}
+
+.banner a{
+  background-color: rgba(216,25,47,.5);
+  color: white;
+  margin-top: 20px;
+  padding-left: 20px;
+    padding-right: 20px;
+  border: none;
+  font-size: 20px;
+}
+
+.section{
+  margin-bottom: 50px;
+}
+.section .row {
+  display: block;
+}
+
+.section h2 {
+  color: rgba(216,25,47, 0.9);
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.section h3 {
+  text-align: center;
+}
+.section ul {
+  list-style-type: none;
+  text-align: center;
+  font-size: 15px;
+}
+
+.footer {
+  background-color: #eeeeee;
+  padding-top: 40px;
+  padding-bottom:50px;
+  text-align: center;
+
+}
+
+.footer ul {
+  list-style-type: none;
+  font-size: 14px;
+}
+
+.footer a{
+  text-decoration: none;
+  font-size: 14px;
+}
+/* Media Queries */
+@media (max-width: 680px) {
+  .header h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .nav {
+    float: none;
+    margin: 0 auto;
+  }
+  .banner {
+    height: 220px;
+  }
+
+  .nav-pills li:first-child a  {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,66 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/projects/armando-perez/brand.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+.header a {
+  margin-top: 50px;
+  }
+
+.header h1{
+  color: white;
+  margin: 50px 0 30px;
+  font-size: 30px;
+
+}
+
+.nav-pills li a {
+  color: rgba(250, 40, 96, 0.9);
+  text-align: right;
+  padding-left: 30px;
+    padding-right: 30px;
+
+
+}
+
+
+.nav-pills li.active a,
+.nav-pills li a:hover,
+.section .btn:hover {
+  background-color: rgba(212, 211, 211, 0.6);
+  color:rgba(250, 40, 96, 0.9);
+}
+
+.btn-all {
+  background-color: rgba(250, 40, 96, 0.9);
+  box-shadow:0 2px 4px rgba(0,0,0,.5);
+  color: white!important;
+  margin-right: 20px;
+}
+
+.btn-all:hover {
+  background-color: rgba(55, 124, 235, 0.9) !important;
+  color:white;
+}
+
+
+.main {
+  padding-top: 25px;
+}
+
+.main img{
+  width: 300px;
+  padding-bottom: 25px;
+}
+
+.footer ul{
+  list-style: none;
+}
+
+.footer{
+  padding-top: 50px;
+}

@@ -1,0 +1,195 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: black;
+}
+
+.header img{
+  height: 50px;
+  margin-top: 30px;
+}
+
+
+
+.header form{
+
+
+  display: relative;
+  text-align: right;
+  margin-top: 50px;
+
+}
+
+.header input {
+  background-color: transparent;
+  border-bottom: white solid 1px;
+  border-left: transparent;
+  border-top: transparent;
+  border-right: transparent;
+  text-align: left;
+  padding-left: -10px;
+  font-weight: 300;
+
+
+}
+
+.search-form{
+  padding-left: -30px;
+  margin-right: 150px;
+
+
+}
+
+
+#exampleInputName2 {
+  width: 275px;
+  margin-right: 250px;
+}
+
+.header input:hover{
+  border-bottom: blue solid 1px;
+}
+
+.header .search-btn{
+  color: white;
+  border-bottom: blue solid 1px;
+  margin-bottom: 30px;
+margin-left: 20px;
+  margin-top: -38px;
+  font-weight: 300;
+
+}
+
+.search button{
+  background-color: transparent;
+  border: none;
+
+}
+
+.menu {
+  background-color: rgba(55, 57, 62, 0.9);
+}
+
+.menu ul{
+  display: inline-block;
+  margin-bottom: -5px;
+}
+
+.nav-pills li a {
+  color: white;
+  text-align: right;
+  padding-left: 30px;
+    padding-right: 30px;
+  margin-left: -10px;
+  border-radius: 0px;
+  font-weight: 300;
+
+
+}
+
+
+.nav-pills li.active a,
+.nav-pills li a:hover,
+.section .btn:hover {
+  background-color: rgba(34, 109, 230, 0.9);
+  color:white;
+}
+
+.btn-top-story {
+  background-color: rgba(34, 109, 230, 0.9);
+  color: white!important;
+  margin-right: 20px;
+}
+
+.btn-top-story:hover {
+  background-color: rgba(34, 109, 230, 0.9) !important;
+  color:white;
+}
+
+.main {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/projects/newsroom/bass-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  padding-bottom: 200px;
+  color: white;
+}
+
+.main h2{
+  text-decoration: underline;
+  -webkit-text-decoration-color: rgba(34, 109, 230, 0.9);
+  text-decoration-color: rgba(34, 109, 230, 0.9);
+  font-size: 70px;
+  font-weight: 300;
+
+}
+
+.main p{
+  font-weight: 300;
+}
+
+.main .info{
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.supporting {
+  background-color: rgba(231, 230, 222, 0.9);
+}
+
+.supporting .col-md-4 {
+   background-color: rgba(55, 57, 62, 0.9);
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.supporting .col-md-8{
+  background-color: white;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.supporting h2{
+  font-size: 20px;
+
+ text-decoration: underline;
+  -webkit-text-decoration-color: rgba(34, 109, 230, 0.9);
+  text-decoration-color: rgba(34, 109, 230, 0.9);
+
+
+}
+
+.supporting  .title{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+
+.supporting img{
+  width: 100%;
+  padding-bottom: 30px;
+
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer ul{
+  list-style: none;
+
+}
+.footer li{
+  display: inline-block;
+  padding-left: 20px;
+}
+
+@media (min-width: 768px) {
+  width: 750px;
+}
