@@ -1,0 +1,117 @@
+html, body {
+  margin: 0;
+  padding: 0;
+    background-image: url(http://cdn.grindtv.com/uploads/2016/03/big-wave-nominees.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+    padding: 0px;
+     
+}
+
+.header {
+    background-color:rgba(255, 148, 10,0.6);
+}
+
+.header h1{
+    color: black;
+    padding-left: 20px;
+    border-right: black solid 3px;
+}
+
+.header ul{
+    list-style: none;
+    padding-top: 20px;
+    text-align: right;
+    padding-right: 25px;
+}
+
+.header li{
+    display: inline-block;
+    background-color: white;
+    
+    margin-left: 20px;
+   
+ 
+    
+}
+
+.header .btn{
+    padding: 10px;
+}
+
+.header .btn:hover {
+    background-color: rgba(255, 148, 10,0.9);
+    color: black;
+    border-radius: 0px;
+   
+}
+
+
+.header a{
+     color: rgba(255, 148, 10,0.9);
+}
+
+
+
+.banner{
+    background-color: black;
+}
+
+.banner h1{
+    text-align: center;
+    font: Impact;
+    font-size: 80px;
+    color: rgba(255, 148, 10,0.9);
+    font-weight: 100;
+}
+
+.main {
+   
+    padding-left: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main img{
+    width: 250px;
+        height: 250px;
+   
+
+}
+
+.main form {
+    padding-bottom: 40px;
+}
+
+
+.checkout {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.checkout a {
+      color: rgba(255, 148, 10,0.9);
+    text-decoration: none;
+    border: rgba(255, 148, 10,0.9) solid 1px;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+     -webkit-text-stroke: 1px black;
+    
+}
+
+.checkout a:hover {
+    background-color: rgba(255, 148, 10,0.6);
+    color: black;
+    border: black solid 1px;
+        
+}
+

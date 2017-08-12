@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Practice</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="../css/shoppingcheckout.css">
+
+  
+</head>
+
+<body>
+  <h1>Shopping Cart</h1>
+
+<div class="shopping-cart">
+
+  <div class="column-labels">
+    <label class="product-image">Image</label>
+    <label class="product-details">Product</label>
+    <label class="product-price">Price</label>
+    <label class="product-quantity">Quantity</label>
+    <label class="product-removal">Remove</label>
+    <label class="product-line-price">Total</label>
+  </div>
+
+  <div class="product">
+    <div class="product-image">
+      <img src="https://s-media-cache-ak0.pinimg.com/736x/44/9c/eb/449ceb09e589a8abad1f6cb8b929846c--used-surfboards-for-sale-santa-cruz.jpg">
+    </div>
+    <div class="product-details">
+      <div class="product-title">SharkNADO</div>
+      <p class="product-description">This 6'1" fish is perfect for all types of waves. It floats enough to cut through soft waves, yet has the control for big wave surfing!! </p>
+    </div>
+    <div class="product-price">452.99</div>
+    <div class="product-quantity">
+      <input type="number" value="0" min="0">
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>
+    <div class="product-line-price">0</div>
+  </div>
+
+  <div class="product">
+    <div class="product-image">
+      <img src="http://media.surfshot.s3.amazonaws.com/media/1/3/1376104-large.jpg">
+    </div>
+    <div class="product-details">
+      <div class="product-title">Neon Shredder</div>
+      <p class="product-description">This grom destroyer will crush the scene and leave the spectators jaw dropped from your insane flow!</p>
+    </div>
+    <div class="product-price">595.99</div>
+    <div class="product-quantity">
+      <input type="number" value="0" min="0">
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>
+    <div class="product-line-price">0</div>
+  </div>
+
+  <div class="totals">
+    <div class="totals-item">
+      <label>Subtotal</label>
+      <div class="totals-value" id="cart-subtotal">0</div>
+    </div>
+    <div class="totals-item">
+      <label>Tax (5%)</label>
+      <div class="totals-value" id="cart-tax">0</div>
+    </div>
+    <div class="totals-item">
+      <label>Shipping</label>
+      <div class="totals-value" id="cart-shipping">0</div>
+    </div>
+    <div class="totals-item totals-item-total">
+      <label>Grand Total</label>
+      <div class="totals-value" id="cart-total">0</div>
+    </div>
+  </div>
+      
+      <button class="checkout">Checkout</button>
+
+</div>
+ 
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+ 
+<script src="../javascript/shoppingcheckout.js"></script>
+</body>
+</html>
