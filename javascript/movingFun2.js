@@ -119,7 +119,7 @@ $(function(){
     
     //mobile ability 
     
-    $(document).on('taphold', function(e) {
+    $(document).on('taphold', function (e) {
        var taphold = e.type;
         if (taphold && go_up === false) {
             go_up = setInterval(up, 20);
@@ -127,7 +127,7 @@ $(function(){
     });
     
     
-    $(document).on('tap', function(e){
+    $(document).on('tap', function (e){
         var tap = e.type;
         if (tap){
             clearInterval(go_up)
@@ -151,7 +151,7 @@ $(function(){
     restart_btn.click(function(){
         location.reload();
         
-    })
+    });
     
     
        function collision($div1, $div2) {
@@ -174,4 +174,4 @@ $(function(){
 
     
     
-})
+});
