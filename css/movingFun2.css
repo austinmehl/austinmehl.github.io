@@ -1,0 +1,75 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+
+#container {
+    position: relative;
+    height: 400px;
+    width: 90%;
+    border: 2px solid red;
+    background: url(https://www.freevector.com/uploads/vector/preview/19766/8-06.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin-left: 4%;
+    overflow: hidden;
+    
+}
+
+#bird {
+    position: absolute;
+    background: url(../images/TedHead.png);
+    height: 40px;
+    width: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 20%;
+    left: 15%;
+}
+
+
+.pole {
+    position: absolute;
+    height: 130px;
+    width: 45px;
+    background: url(../images/dogbone2.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    right: -50px;
+}
+
+#pole_1{
+    top: 0;
+}
+
+#pole_2{
+    bottom: 0;
+}
+
+
+#score div{
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+
+#restart_btn{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: fuchsia
+        color: white;
+    font-size: 35px;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+button{
+    background-color: greenyellow
+        
+}

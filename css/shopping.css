@@ -115,3 +115,12 @@ html, body {
         
 }
 
+@media (min-width:600px) {
+  .header h1 {
+   text-align: center;
+  }
+    .header li{
+        display: block
+    }
+
+
