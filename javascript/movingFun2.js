@@ -119,22 +119,23 @@ $(function(){
     
     //mobile ability 
     
-    $(document).on('taphold', function (e) {
-       var taphold = e.type;
+       $(document).on('taphold', function (e) {
+        var taphold = e.type;
         if (taphold && go_up === false) {
             go_up = setInterval(up, 20);
-        }    
+        }
     });
-    
-    
-    $(document).on('tap', function (e){
+
+
+
+
+    $(document).on('tap', function (e) {
         var tap = e.type;
-        if (tap){
+        if (tap) {
             clearInterval(go_up)
             go_up = false;
-        }   
+        }
     });
-    
     //end mobile ability 
     
     
