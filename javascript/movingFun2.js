@@ -63,7 +63,7 @@ $(function(){
             
             
             //change speed
-            speed = speed + 1;
+            speed = speed + 2;
             speed_span.text(speed);
             
             
@@ -119,7 +119,7 @@ $(function(){
     
     //mobile ability 
     
-       $(document).on('taphold', function (e) {
+       $(document).on('click touchstart', function (e) {
         var taphold = e.type;
         if (taphold && go_up === false) {
             go_up = setInterval(up, 20);
@@ -129,7 +129,7 @@ $(function(){
 
 
 
-    $(document).on('tap', function (e) {
+    $(document).on('click touchstart', function (e) {
         var tap = e.type;
         if (tap) {
             clearInterval(go_up)
