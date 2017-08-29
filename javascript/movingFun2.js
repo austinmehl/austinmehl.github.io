@@ -141,6 +141,33 @@ $(function(){
     
     
     
+    // check mouse down
+      $(document).on('mousedown', function (e) {
+        var mouse = e.type;
+        if (mouse && go_up === false) {
+            go_up = setInterval(up, 50);
+        }
+    });
+
+
+    $(document).on('mouseup', function (e) {
+        var mouse = e.type;
+        if (mouse) {
+            clearInterval(go_up)
+            go_up = false;
+        }
+    });
+    
+    //end mouse down
+    
+    
+    
+    
+    
+    
+    
+    
+    
     function stop_the_game() {
         clearInterval(the_game);
         game_over = true;
