@@ -1,3 +1,6 @@
+
+
+
 $(function () {
 
     //saving dom objects to variables
@@ -18,7 +21,11 @@ $(function () {
     var bird_left = parseInt(bird.css('left'));
     var bird_height = parseInt(bird.height());
     var speed = 10;
+    
+    
 
+    
+    
     //some other declarations
     var go_up = false;
     var score_updated = false;
@@ -77,6 +84,9 @@ $(function () {
         }
     });
 
+    
+
+    
     $(document).on('keyup', function (e) {
         var key = e.keyCode;
         if (key === 32) {
@@ -87,13 +97,15 @@ $(function () {
 
 
     function go_down() {
-        bird.css('top', parseInt(bird.css('top')) + 5);
+        bird.css('top', parseInt(bird.css('top')) + 10);
     }
 
     function up() {
         bird.css('top', parseInt(bird.css('top')) - 10);
     }
 
+    
+    if("ontouchstart" in window)
     $(document).on('taphold', function (e) {
         var taphold = e.type;
         if (taphold && go_up === false) {
@@ -124,7 +136,10 @@ $(function () {
             clearInterval(go_up)
             go_up = false;
         }
-    });
+    });   
+    
+    
+   
 
     function stop_the_game() {
         clearInterval(the_game);
@@ -157,3 +172,13 @@ $(function () {
 
 
 });
+
+
+    //sounds 
+var volume = 30;
+var soundJump = new buzz.sound("assets/sounds/sfx_wing.ogg");
+var soundScore = new buzz.sound("assets/sounds/sfx_point.ogg");
+var soundHit = new buzz.sound("assets/sounds/sfx_hit.ogg");
+var soundDie = new buzz.sound("assets/sounds/sfx_die.ogg");
+var soundSwoosh = new buzz.sound("assets/sounds/sfx_swooshing.ogg");
+buzz.all().setVolume(volume);
